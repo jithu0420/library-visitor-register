@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Log</title>
+    
+</head>
+<body>
+    <center><h2>Welcome to Library</h2></center>
+    <h3>Scan your ID card for checkin / checkout log</h3>
+    <form id="myform">
+        <h4>Admission Number</h4> <br>
+        <input type="text" name="admission_no" id="admission_no">
+        <button type="button" id="check_in_out">checkin/checkout</button>
+    </form><br>
+    Name : <div id="name"></div><br>
+    Entry time : <div id="entry_time"></div><br>
+    Exit time : <div id="exit_time"></div><br>
+    <br>
+    <br>
+    <center><div id="error_info" style="color: red;"></div></center>
+    <script src="js/barcodelogic.js"></script>
+</body>
+</html>
